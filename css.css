@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+p
+{
+    font-size: 20px;
+    color: rgb(120,120,122);
+}
+span
+{
+    color: red;
+}
+button
+{
+    padding: 25px;
+}
+.img_container
+{
+    height: 300px;
+    width: 50%;
+    float: right;
+}
+p.intro
+{
+    float: left;
+    width: 40%;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.img-container1
+{
+    height: 400px;
+    width: 70%;
+    margin: 3px 25px 50px 100px;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+}
+@media screen and (max-width: 650px)
+{
+    .img_container
+    {
+        height: 300px;
+        width: 80%;
+    }
+    p
+    {
+        margin: 0 10px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>audio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <audio id="audio"></audio>
+            <source src="1.mp3">
+        </audio>
+        <button onclick="audio()">Click</button>
+        <script>
+            var x = document.getElementById("audio");
+            function audio()
+            {
+                x.play();
+            }
+        </script>
+    </body>
+</html>

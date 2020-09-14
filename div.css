@@ -1,0 +1,27 @@
+.big_container
+{
+   height: inherit;
+    background-color: blue;
+}
+.big_container .container
+{
+    height: 15em;
+    width: 30%;
+    border: 2px solid black;
+    float: left;
+    margin: 10px 20px;
+}
+.big_container .container .img_container
+{
+    height: 75%;
+    width: 100%;
+}
+.big_container .container .img_container p
+{
+    display: inline-block;
+}
+img
+{
+    height: 100%;
+    width: 100%;
+}
